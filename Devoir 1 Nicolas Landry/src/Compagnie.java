@@ -37,7 +37,8 @@ public class Compagnie {
  }
  void Ajouterdeslimousine(String Typedelimousine,String Modele, String Plaquenumerologique)
  {
-	 limo= new Limousine(Plaquenumerologique,0,Modele,listedesemployer.get(0));
+	 Chaft=(Chauffeur)listedesemployer.get(0);
+	 limo= new Limousine(Plaquenumerologique,0,Modele,Chaft);
 	// listedeslimousine.add();
  }
  public void getdEmploye()
