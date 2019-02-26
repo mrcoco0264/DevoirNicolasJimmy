@@ -20,7 +20,8 @@ public class Compagnie {
  }
  public void Ajouterdeemployer(String Prenomdelemployer,String nomdelemployer, int age, String addresse)
  {
-	 listedesemployer.add(new Chauffeur(Prenomdelemployer,nomdelemployer,age,addresse));
+	 Chaft =new Chauffeur(Prenomdelemployer,nomdelemployer,age,addresse);
+	 listedesemployer.add(Chaft);
  }
  private Chauffeur[] conversionentableaufixeEmployer()
  {
@@ -37,7 +38,7 @@ public class Compagnie {
  {
 	// listedeslimousine.add();
  }
- public void getListdEmploye()
+ public void getdEmploye()
  {
 	 for(int i=0;i<listedesemployer.size();i++)
 	 {
