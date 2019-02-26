@@ -6,6 +6,7 @@ public class Compagnie {
  ArrayList listedesemployer;
  ArrayList listedeslimousine;
  Chauffeur Chaft = new Chauffeur();
+ Limousine limo;
  Compagnie()
  {
 	 nbremployer =0;
@@ -36,6 +37,7 @@ public class Compagnie {
  }
  void Ajouterdeslimousine(String Typedelimousine,String Modele, String Plaquenumerologique)
  {
+	 limo= new Limousine(Plaquenumerologique,0,Modele,listedesemployer.get(0));
 	// listedeslimousine.add();
  }
  public void getdEmploye()
