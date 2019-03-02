@@ -5,12 +5,11 @@ public class Limousine {
 	String couleur;
 	Chauffeur chaufteur;
 
-		Limousine()
-		{
-			plaque ="";
-			;
-			
-		}
+	Limousine()
+	{
+		plaque ="";
+
+	}
 	Limousine(String pla, int num, String co, Chauffeur f)
 	{
 		plaque =pla;
@@ -18,6 +17,9 @@ public class Limousine {
 		couleur = co;
 		chaufteur=f;
 	}
-	
-	
+	String GetPlaque()
+	{
+		return plaque;
+	}
+
 }
