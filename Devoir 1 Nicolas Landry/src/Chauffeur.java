@@ -28,7 +28,7 @@ public class Chauffeur {
 	  String r= ""+n.charAt(0)+n.charAt(1)+n.charAt(2)+p.charAt(0)+an.charAt(2)+an.charAt(3);
 	  return r;
   }
-  public String getCode()
+  public String getCodeEmployer()
   {
 	  return codeemployer;
   }
