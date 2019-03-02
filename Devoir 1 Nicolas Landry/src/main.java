@@ -19,6 +19,7 @@ public class main {
 			{
 			case 1:
 			{
+				System.out.println("a");
 				b=false;
 				break;
 			}
