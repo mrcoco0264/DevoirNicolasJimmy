@@ -2,6 +2,8 @@
 public class Trajet {
 	String villedeDepart;
 	String villeDarrive;
+	int idvilledeDepart;
+	int idvilleDarrive;
 	String idChauffeur;
 	String plaqueLimo;
 	Chauffeur chaufeurTrajet;
@@ -23,6 +25,8 @@ public class Trajet {
 		villeDarrive = "Montréal";
 		chaufeurTrajet = chaft;
 		idChauffeur = chaufeurTrajet.getCodeEmployer();
+		Limo1=limo;
+		plaqueLimo=limo.GetPlaque();
 	}
 
 
