@@ -19,7 +19,7 @@ public class Limousine {
 		couleur = co;
 	}
 	//Retourne la plaque du Vehicule.
-	String GetPlaque()
+	String getPlaque()
 	{
 		return plaque;
 	}

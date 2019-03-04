@@ -6,6 +6,7 @@ public class Chauffeur {
    int Annee;
    String codeemployer;
    String addresse;
+   String ResultatRecherche;
    
    Chauffeur()
    {
@@ -32,4 +33,5 @@ public class Chauffeur {
   {
 	  return codeemployer;
   }
+
 }
